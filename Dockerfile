@@ -12,8 +12,7 @@ RUN apt-get update && apt-get install -y \
     pkg-config \        
     wget \              
     curl \              
-    vim \               
-    
+    vim \              
     # --- QEMU Build System Dependencies ---
     meson \             
     # QEMU uses the Meson build system
@@ -22,7 +21,6 @@ RUN apt-get update && apt-get install -y \
     python3 \           
     # Required by build scripts
     python3-pip \       
-
     # --- QEMU Core Library Dependencies ---
     libglib2.0-dev \    
     # GLib development files (core dependency)
@@ -32,7 +30,6 @@ RUN apt-get update && apt-get install -y \
     # Flattened Device Tree library
     libslirp-dev \      
     # User-mode networking (libslirp)
-
     # --- Optional (but common) dependencies ---
     # Add these if you need specific features like a graphical UI
     # libsdl2-dev \       # For SDL-based UI
@@ -40,7 +37,6 @@ RUN apt-get update && apt-get install -y \
     # libvte-2.91-dev \   # For GTK VTE terminal widget
     # libnfs-dev \        # For NFS support
     # libiscsi-dev \      # For iSCSI support
-
     # --- Cleanup ---
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
