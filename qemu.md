@@ -18,12 +18,16 @@ cd code
 ```
 Now you should see the `qemu_error_injector` git repo
 
-Start the docker and exit
+Start the docker
 
 ```bash
 sudo docker start -ai my-qemu-builder
 ```
-
+Connect a new ternimal
+```bash
+sudo docker exec -it my-qemu-builder /bin/bash
+```
+Exit
 ```bash
 #inside the docker workspace terminal
 exit
