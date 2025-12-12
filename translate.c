@@ -89,9 +89,27 @@ static uint64_t inject_add_counter;
 static uint64_t inject_add_skip;
 static bool inject_add_inited;
 static target_ulong inject_add_min_pc;
+static target_ulong inject_add_max_pc;  /* 0 means no max limit */
 static uint32_t inject_add_prob_num = 1;
 static uint32_t inject_add_prob_den = 1;
 static uint64_t inject_add_rng_state;
+
+/*
+ * Corruption modes (QEMU_INJECT_MODE env var):
+ *   0 = add +1 (default, subtle off-by-one)
+ *   1 = flip random bit
+ *   2 = zero low byte (simulates null-terminator corruption)
+ *   3 = invert all bits (catastrophic, for stress testing)
+ *   4 = add random small delta (-16 to +16)
+ */
+static uint32_t inject_add_mode;
+
+static inline bool inject_add_reg_allowed(int reg)
+{
+    /* Avoid corrupting stack/base registers; keeps control data intact. */
+    return reg != R_ESP && reg != R_EBP;
+}
+
 typedef struct DisasContext {
     DisasContextBase base;
 
@@ -152,75 +170,6 @@ typedef struct DisasContext {
     TCGOp *prev_insn_start;
     TCGOp *prev_insn_end;
 } DisasContext;
-
-static inline bool add_corruption_allowed(X86DecodedInsn *decode)
-{
-    X86DecodedOp *dst = &decode->op[0];
-    MemOp ot = decode->op[1].ot;
-
-    if (dst->unit != X86_OP_INT || dst->has_ea) {
-        return false; /* only corrupt register integer adds */
-    }
-
-    /* Avoid 64-bit results; more likely to be pointers. */
-    if (ot == MO_64) {
-        return false;
-    }
-
-    /* Restrict to RAX to avoid corrupting base/index registers used for addressing. */
-    return dst->n == R_EAX;
-}
-
-static inline uint64_t inject_add_rand(void)
-{
-    /* xorshift64* */
-    uint64_t x = inject_add_rng_state;
-    x ^= x >> 12;
-    x ^= x << 25;
-    x ^= x >> 27;
-    inject_add_rng_state = x;
-    return x * 2685821657736338717ULL;
-}
-
-static inline bool should_inject_add(void)
-{
-    inject_add_counter++;
-    if (inject_add_counter <= inject_add_skip) {
-        return false;
-    }
-    if (!inject_add_corruption) {
-        return false;
-    }
-    if (((inject_add_counter - inject_add_skip) % inject_add_every) != 0) {
-        return false;
-    }
-    if (inject_add_prob_num < inject_add_prob_den) {
-        /* Randomized probability. */
-        uint64_t r = inject_add_rand();
-        if ((r % inject_add_prob_den) >= inject_add_prob_num) {
-            return false;
-        }
-    }
-    return true;
-}
-
-static inline void maybe_inject_add_corruption(DisasContext *s,
-                                               X86DecodedInsn *decode,
-                                               TCGv clean_result)
-{
-    if (!add_corruption_allowed(decode) || !should_inject_add()) {
-        return;
-    }
-    if (inject_add_min_pc && s->base.pc_next < inject_add_min_pc) {
-        return;
-    }
-
-    /* Flip the low bit to create a subtle but noticeable corruption. */
-    TCGv corrupt = tcg_temp_new();
-    tcg_gen_mov_tl(corrupt, clean_result);
-    tcg_gen_xor_tl(corrupt, corrupt, tcg_constant_tl(1));
-    s->T0 = corrupt;
-}
 
 /*
  * Point EIP to next instruction before ending translation.
@@ -336,6 +285,197 @@ STUB_HELPER(write_crN, TCGv_env env, TCGv_i32 reg, TCGv val)
 static void gen_jmp_rel(DisasContext *s, MemOp ot, int diff, int tb_num);
 static void gen_jmp_rel_csize(DisasContext *s, int diff, int tb_num);
 static void gen_exception_gpf(DisasContext *s);
+
+static inline uint64_t inject_add_rand(void)
+{
+    /* xorshift64* RNG */
+    uint64_t x = inject_add_rng_state;
+    x ^= x >> 12;
+    x ^= x << 25;
+    x ^= x >> 27;
+    inject_add_rng_state = x;
+    return x * 2685821657736338717ULL;
+}
+
+static inline void inject_add_init_once(void)
+{
+    const char *inject_env;
+    const char *inject_skip_env;
+    const char *inject_min_pc_env;
+    const char *inject_prob_env;
+    const char *inject_seed_env;
+
+    if (inject_add_inited) {
+        return;
+    }
+
+    inject_add_inited = true;
+    inject_env = g_getenv("QEMU_INJECT_ADD");
+    if (inject_env) {
+        uint64_t freq = g_ascii_strtoull(inject_env, NULL, 0);
+        inject_add_corruption = true;
+        if (freq != 0) {
+            inject_add_every = freq;
+        }
+    }
+
+    inject_skip_env = g_getenv("QEMU_INJECT_ADD_SKIP");
+    if (inject_skip_env) {
+        inject_add_skip = g_ascii_strtoull(inject_skip_env, NULL, 0);
+    }
+
+    inject_min_pc_env = g_getenv("QEMU_INJECT_ADD_MIN_PC");
+    if (inject_min_pc_env) {
+        inject_add_min_pc = g_ascii_strtoull(inject_min_pc_env, NULL, 0);
+    }
+    /* Default min_pc is 0 (no filtering). User can set to skip early code. */
+
+    const char *inject_max_pc_env = g_getenv("QEMU_INJECT_ADD_MAX_PC");
+    if (inject_max_pc_env) {
+        inject_add_max_pc = g_ascii_strtoull(inject_max_pc_env, NULL, 0);
+    }
+
+    inject_prob_env = g_getenv("QEMU_INJECT_ADD_PROB");
+    if (inject_prob_env) {
+        uint64_t val = g_ascii_strtoull(inject_prob_env, NULL, 0);
+        if (val > 100) {
+            val = 100;
+        }
+        inject_add_prob_den = 100;
+        inject_add_prob_num = val;
+    }
+
+    inject_seed_env = g_getenv("QEMU_INJECT_ADD_SEED");
+    if (inject_seed_env) {
+        inject_add_rng_state = g_ascii_strtoull(inject_seed_env, NULL, 0);
+    }
+    if (inject_add_rng_state == 0) {
+        inject_add_rng_state = (uint64_t)g_get_real_time();
+    }
+
+    /* Corruption mode: 0=+1, 1=bitflip, 2=zero-low-byte, 3=invert, 4=random-delta */
+    const char *inject_mode_env = g_getenv("QEMU_INJECT_MODE");
+    if (inject_mode_env) {
+        inject_add_mode = (uint32_t)g_ascii_strtoull(inject_mode_env, NULL, 0);
+        if (inject_add_mode > 4) {
+            inject_add_mode = 0;
+        }
+    }
+}
+
+static inline bool should_corrupt_add(DisasContext *s, MemOp size, int reg)
+{
+    static uint64_t debug_total = 0;
+    static uint64_t debug_skipped_reg = 0;
+    static uint64_t debug_corrupted = 0;
+    
+    (void)size;  /* Currently allowing all sizes */
+    
+    inject_add_counter++;
+    debug_total++;
+
+    if (!inject_add_corruption) {
+        return false;
+    }
+    if (inject_add_counter <= inject_add_skip) {
+        return false;
+    }
+    if (inject_add_min_pc && s->base.pc_next < inject_add_min_pc) {
+        return false;
+    }
+    if (inject_add_max_pc && s->base.pc_next > inject_add_max_pc) {
+        return false;
+    }
+    if (((inject_add_counter - inject_add_skip) % inject_add_every) != 0) {
+        return false;
+    }
+
+    /* Keep control data intact: avoid stack/base regs. Allow all sizes. */
+    if (!inject_add_reg_allowed(reg)) {
+        debug_skipped_reg++;
+        return false;
+    }
+
+    /* Optional probability gate. */
+    if (inject_add_prob_num < inject_add_prob_den) {
+        uint64_t r = inject_add_rand();
+        if ((r % inject_add_prob_den) >= inject_add_prob_num) {
+            return false;
+        }
+    }
+
+    debug_corrupted++;
+    fprintf(stderr, "[INJECT] Corrupting ADD #%lu at PC=%lx, size=%d, reg=%d\n",
+            (unsigned long)inject_add_counter, (unsigned long)s->base.pc_next, size, reg);
+    return true;
+}
+
+static inline void maybe_corrupt_add_result(DisasContext *s, MemOp size,
+                                            int reg, TCGv result)
+{
+    if (!should_corrupt_add(s, size, reg)) {
+        return;
+    }
+
+    /*
+     * PAYLOAD-ONLY CORRUPTION:
+     * Generate runtime check - only corrupt if the value looks like user data,
+     * not like a pointer or address. We skip values that:
+     *   - Are in typical stack range (0x7fff... on x86-64)
+     *   - Are in typical heap/code range (0x4xxxxx, 0x5xxxxx)
+     *   - Have high bits set (likely pointers on 64-bit)
+     *
+     * For 32-bit operations (size <= MO_32), we check if value < 0x100000
+     * (under 1MB = likely small user data, not an address).
+     * For 64-bit, we check if value < 0x10000 (64KB threshold).
+     */
+    
+    TCGLabel *skip_label = gen_new_label();
+    TCGv threshold = tcg_constant_tl(size == MO_64 ? 0x10000 : 0x100000);
+    
+    /* If result >= threshold, skip corruption (likely a pointer/address) */
+    tcg_gen_brcond_tl(TCG_COND_GEU, result, threshold, skip_label);
+
+    /* Value is small - safe to corrupt as payload */
+    uint64_t r = inject_add_rand();
+
+    switch (inject_add_mode) {
+    case 0:
+        /* Mode 0: add +1 (subtle off-by-one) */
+        tcg_gen_addi_tl(result, result, 1);
+        break;
+    case 1:
+        /* Mode 1: flip a random bit (bit position 0-7 for safety) */
+        {
+            int bit = r % 8;  /* Only flip low bits to avoid large changes */
+            tcg_gen_xori_tl(result, result, 1ULL << bit);
+        }
+        break;
+    case 2:
+        /* Mode 2: zero low byte (simulates null-terminator corruption) */
+        tcg_gen_andi_tl(result, result, ~0xFFULL);
+        break;
+    case 3:
+        /* Mode 3: invert low byte only (less catastrophic) */
+        tcg_gen_xori_tl(result, result, 0xFF);
+        break;
+    case 4:
+        /* Mode 4: add random small delta (-16 to +16) */
+        {
+            int delta = (int)(r % 33) - 16;
+            tcg_gen_addi_tl(result, result, delta);
+        }
+        break;
+    default:
+        tcg_gen_addi_tl(result, result, 1);
+        break;
+    }
+
+    /* Re-extend to preserve width masking. */
+    tcg_gen_ext_tl(result, result, size);
+    
+    gen_set_label(skip_label);
+}
 
 /* i386 shift ops */
 enum {
@@ -589,9 +729,11 @@ static inline void gen_op_add_reg(DisasContext *s, MemOp size, int reg, TCGv val
     if (size == MO_16) {
         TCGv temp = tcg_temp_new();
         tcg_gen_add_tl(temp, cpu_regs[reg], val);
+        maybe_corrupt_add_result(s, size, reg, temp);
         gen_op_mov_reg_v(s, size, reg, temp);
     } else {
         tcg_gen_add_tl(cpu_regs[reg], cpu_regs[reg], val);
+        maybe_corrupt_add_result(s, size, reg, cpu_regs[reg]);
         tcg_gen_ext_tl(cpu_regs[reg], cpu_regs[reg], size);
     }
 }
@@ -3788,51 +3930,9 @@ void tcg_x86_init(void)
     static const char bnd_regu_names[4][8] = {
         "bnd0_ub", "bnd1_ub", "bnd2_ub", "bnd3_ub"
     };
-    const char *inject_env;
-    const char *inject_skip_env;
-    const char *inject_min_pc_env;
-    const char *inject_prob_env;
-    const char *inject_seed_env;
     int i;
 
-    if (!inject_add_inited) {
-        inject_env = g_getenv("QEMU_INJECT_ADD");
-        inject_add_inited = true;
-        if (inject_env) {
-            uint64_t freq = g_ascii_strtoull(inject_env, NULL, 0);
-            inject_add_corruption = true;
-            if (freq != 0) {
-                inject_add_every = freq;
-            }
-        }
-        inject_skip_env = g_getenv("QEMU_INJECT_ADD_SKIP");
-        if (inject_skip_env) {
-            inject_add_skip = g_ascii_strtoull(inject_skip_env, NULL, 0);
-        }
-        inject_min_pc_env = g_getenv("QEMU_INJECT_ADD_MIN_PC");
-        if (inject_min_pc_env) {
-            inject_add_min_pc = g_ascii_strtoull(inject_min_pc_env, NULL, 0);
-        } else {
-            inject_add_min_pc = 0x400000; /* default to skip early runtime setup */
-        }
-        inject_prob_env = g_getenv("QEMU_INJECT_ADD_PROB");
-        if (inject_prob_env) {
-            uint64_t val = g_ascii_strtoull(inject_prob_env, NULL, 0);
-            /* Interpret as percentage 0-100; clamp to range. */
-            if (val > 100) {
-                val = 100;
-            }
-            inject_add_prob_den = 100;
-            inject_add_prob_num = val;
-        }
-        inject_seed_env = g_getenv("QEMU_INJECT_ADD_SEED");
-        if (inject_seed_env) {
-            inject_add_rng_state = g_ascii_strtoull(inject_seed_env, NULL, 0);
-        }
-        if (inject_add_rng_state == 0) {
-            inject_add_rng_state = (uint64_t)g_get_real_time();
-        }
-    }
+    inject_add_init_once();
 
     cpu_cc_op = tcg_global_mem_new_i32(tcg_env,
                                        offsetof(CPUX86State, cc_op), "cc_op");
