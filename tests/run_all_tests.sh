@@ -4,14 +4,14 @@
 # Runs all test programs against corruption modes
 #
 # To match manual command behavior, use:
-#   ./run_all_tests.sh -a -p 50 -m 0 -t test_db_sim -v
+#   ./run_all_tests.sh -a -p 5 -m 0 -t test_db_sim -v
 #
 # This is equivalent to:
 #   QEMU_INJECT_ADD=1 QEMU_INJECT_ADD_PROB=50 QEMU_INJECT_MODE=0 \
 #   ../qemu/build/qemu-x86_64 ./test_db_sim
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-QEMU_BIN="${QEMU_BIN:-../qemu/build/qemu-x86_64}"
+QEMU_BIN="${QEMU_BIN:-../../qemu/build/qemu-x86_64}"
 TEST_DIR="${SCRIPT_DIR}"
 
 # Color codes for output
@@ -29,6 +29,7 @@ TESTS=(
     "test_db_sim"
     "test_io_buffer"
     "test_file_io_hex"
+    "test_AES"
 )
 
 # Corruption modes
@@ -150,6 +151,7 @@ get_target_function() {
         test_db_sim)     echo "fill_records" ;;
         test_io_buffer)  echo "fill_buffer_unrolled" ;;
         test_file_io_hex) echo "fill_pattern_unrolled" ;;
+        test_AES) echo "AddRoundKey" ;;
         *)               echo "" ;;
     esac
 }

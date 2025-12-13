@@ -12,7 +12,7 @@
 #   prob: injection probability 0-100 (default: 50)
 #   mode: 0=+1, 1=bitflip, 2=zero-byte, 3=invert, 4=random-delta (default: 0)
 
-QEMU="../qemu/build/qemu-x86_64"
+QEMU="../../qemu/build/qemu-x86_64"
 PROB=${2:-50}
 MODE=${3:-0}
 SEED=42
