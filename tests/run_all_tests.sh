@@ -314,7 +314,7 @@ echo "  Verbose:     $( [ $VERBOSE -eq 1 ] && echo 'Yes' || echo 'No' )"
 echo ""
 
 # Compile tests
-compile_tests || exit 1
+# compile_tests || exit 1
 
 if [ $COMPILE_ONLY -eq 1 ]; then
     echo "Compile-only mode, exiting."

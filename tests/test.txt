@@ -1,0 +1,3163 @@
+
+[DIFF DETECTED] Prob: 5%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2e 3b fa d4 ee 09 7a 34 25 5e a8 e2 a5 fa 19 cb
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 6%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 6%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2e 3b fa d4 ee 09 7a 34 25 5e a8 e2 a5 fa 19 cb
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 7%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 7%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2e 3b fa d4 ee 09 7a 34 25 5e a8 e2 a5 fa 19 cb
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 8%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 8%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2e 3b fa d4 ee 09 7a 34 25 5e a8 e2 a5 fa 19 cb
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 9%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 9%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 10%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 10%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 11%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 11%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 12%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 12%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 13%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 13%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 14%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 14%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 15%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 15%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 16%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 16%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 17%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 17%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 18%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 18%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 19%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 19%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 20%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 20%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 21%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 21%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 22%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 22%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 23%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 23%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 24%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 24%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 25%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 25%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 26%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 26%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 27%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 27%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 28%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 28%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 29%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 29%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 30%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 30%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 31%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 31%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 32%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 32%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 33%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 33%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 34%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 34%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 35%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 35%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 36%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 36%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 37%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 37%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 38%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 38%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 39%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 39%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 40%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 40%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 15 23 33 2d 71 06 a8 5e 38 c1 ad 27 2e 1d 1e e9
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 41%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 41%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 15 23 33 2d 71 06 a8 5e 38 c1 ad 27 2e 1d 1e e9
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 42%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 42%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 15 23 33 2d 71 06 a8 5e 38 c1 ad 27 2e 1d 1e e9
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 43%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 43%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 44%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 44%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 45%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 45%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 46%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 46%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 47%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 47%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 48%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 48%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 49%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 49%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 50%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 50%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 51%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 51%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 52%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 52%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 53%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 53%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 54%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 54%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 55%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 55%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 56%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 56%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 57%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 57%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 58%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 58%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 59%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 59%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 60%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 60%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 8e 83 f8 f2 a3 01 38 6a ff f9 2c 8f e4 a2 3f d8
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 61%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 61%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 62%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 62%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 63%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 63%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 64%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 64%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 65%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 65%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 66%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 66%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 67%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 67%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 68%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 68%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: c5 4b ab 7a d6 26 8f 73 20 c6 f6 1f 96 e8 1e b1
+Decrypted: 52 1b 90 68 6b 0e 6e 88 8a 4d 5d 72 90 73 83 a5
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 69%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 69%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 70%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 70%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 71%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 71%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 72%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 72%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 73%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 73%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 74%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 74%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 75%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 75%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 76%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 76%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 77%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 77%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 78%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 78%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 79%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 79%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 80%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 80%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 81%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 81%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 1e f3 83 a0 ad 71 60 a4 37 cb 21 f5 0a 65 91 7a
+Decrypted: 5d 2d b2 ce dc 84 04 62 44 f8 ae ff 74 86 f3 a4
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 82%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 82%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 72 52 06 80 9a b1 90 61 52 eb 46 83 1c 5b e7 86
+Decrypted: 31 52 af 16 ed f2 75 a5 a5 a7 5e 76 d8 86 ca bf
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 83%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 83%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 72 52 06 80 9a b1 90 61 52 eb 46 83 1c 5b e7 86
+Decrypted: 31 52 af 16 ed f2 75 a5 a5 a7 5e 76 d8 86 ca bf
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 84%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 84%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 63 67 20 3f 25 8f 77 2c ed c2 02 d9 f5 a3 81 fc
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 85%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 85%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 86%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 86%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 87%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 87%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 88%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 88%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 89%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 89%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 90%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 90%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 91%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 91%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 92%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 92%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 93%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 93%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: d0 00 7c ae de 3d ac 22 f4 0f 73 96 e4 69 3f 5b
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 94%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 94%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 95%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 95%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 96%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 96%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 97%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 97%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 98%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 98%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 99%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 99%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+========================================
+QEMU Error Injector Test Suite
+========================================
+Configuration:
+QEMU Binary: ../../qemu/build/qemu-x86_64
+Probability: 100%
+Skip Count:  0
+Random Seed: 122
+PC Range:    Auto-detect (safe mode)
+Verbose:     Yes
+=== Compiling Test Programs ===
+======================================
+------------------------------
+
+[DIFF DETECTED] Prob: 100%
+--- BASELINE ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 39 25 84 1d 02 dc 09 fb dc 11 85 97 19 6a 0b 32
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+--- INJECTED ---
+Original Text:
+Plain: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+Key:
+Key  : 2b 7e 15 16 28 ae d2 a6 ab f7 15 88 09 cf 4f 3c
+Encrypted: 2d f8 a7 0f 1d ad 4d 0f 06 95 d2 46 df 2d 8f 30
+Decrypted: 32 43 f6 a8 88 5a 30 8d 31 31 98 a2 e0 37 07 34
+========================================
+Test Suite Complete
+========================================
+------------------------------
+PROBABILITY     | NO INJECTION    | BENIGN (MATCH)       | SDC (DIFF)          
+===========================================================================
+0%              | 1               | 0                    | 0                   
+1%              | 1               | 0                    | 0                   
+2%              | 1               | 0                    | 0                   
+3%              | 1               | 0                    | 0                   
+4%              | 1               | 0                    | 0                   
+5%              | 0               | 0                    | 1                   
+6%              | 0               | 0                    | 1                   
+7%              | 0               | 0                    | 1                   
+8%              | 0               | 0                    | 1                   
+9%              | 0               | 0                    | 1                   
+10%             | 0               | 0                    | 1                   
+11%             | 0               | 0                    | 1                   
+12%             | 0               | 0                    | 1                   
+13%             | 0               | 0                    | 1                   
+14%             | 0               | 0                    | 1                   
+15%             | 0               | 0                    | 1                   
+16%             | 0               | 0                    | 1                   
+17%             | 0               | 0                    | 1                   
+18%             | 0               | 0                    | 1                   
+19%             | 0               | 0                    | 1                   
+20%             | 0               | 0                    | 1                   
+21%             | 0               | 0                    | 1                   
+22%             | 0               | 0                    | 1                   
+23%             | 0               | 0                    | 1                   
+24%             | 0               | 0                    | 1                   
+25%             | 0               | 0                    | 1                   
+26%             | 0               | 0                    | 1                   
+27%             | 0               | 0                    | 1                   
+28%             | 0               | 0                    | 1                   
+29%             | 0               | 0                    | 1                   
+30%             | 0               | 0                    | 1                   
+31%             | 0               | 0                    | 1                   
+32%             | 0               | 0                    | 1                   
+33%             | 0               | 0                    | 1                   
+34%             | 0               | 0                    | 1                   
+35%             | 0               | 0                    | 1                   
+36%             | 0               | 0                    | 1                   
+37%             | 0               | 0                    | 1                   
+38%             | 0               | 0                    | 1                   
+39%             | 0               | 0                    | 1                   
+40%             | 0               | 0                    | 1                   
+41%             | 0               | 0                    | 1                   
+42%             | 0               | 0                    | 1                   
+43%             | 0               | 0                    | 1                   
+44%             | 0               | 0                    | 1                   
+45%             | 0               | 0                    | 1                   
+46%             | 0               | 0                    | 1                   
+47%             | 0               | 0                    | 1                   
+48%             | 0               | 0                    | 1                   
+49%             | 0               | 0                    | 1                   
+50%             | 0               | 0                    | 1                   
+51%             | 0               | 0                    | 1                   
+52%             | 0               | 0                    | 1                   
+53%             | 0               | 0                    | 1                   
+54%             | 0               | 0                    | 1                   
+55%             | 0               | 0                    | 1                   
+56%             | 0               | 0                    | 1                   
+57%             | 0               | 0                    | 1                   
+58%             | 0               | 0                    | 1                   
+59%             | 0               | 0                    | 1                   
+60%             | 0               | 0                    | 1                   
+61%             | 0               | 0                    | 1                   
+62%             | 0               | 0                    | 1                   
+63%             | 0               | 0                    | 1                   
+64%             | 0               | 0                    | 1                   
+65%             | 0               | 0                    | 1                   
+66%             | 0               | 0                    | 1                   
+67%             | 0               | 0                    | 1                   
+68%             | 0               | 0                    | 1                   
+69%             | 0               | 0                    | 1                   
+70%             | 0               | 0                    | 1                   
+71%             | 0               | 0                    | 1                   
+72%             | 0               | 0                    | 1                   
+73%             | 0               | 0                    | 1                   
+74%             | 0               | 0                    | 1                   
+75%             | 0               | 0                    | 1                   
+76%             | 0               | 0                    | 1                   
+77%             | 0               | 0                    | 1                   
+78%             | 0               | 0                    | 1                   
+79%             | 0               | 0                    | 1                   
+80%             | 0               | 0                    | 1                   
+81%             | 0               | 0                    | 1                   
+82%             | 0               | 0                    | 1                   
+83%             | 0               | 0                    | 1                   
+84%             | 0               | 0                    | 1                   
+85%             | 0               | 0                    | 1                   
+86%             | 0               | 0                    | 1                   
+87%             | 0               | 0                    | 1                   
+88%             | 0               | 0                    | 1                   
+89%             | 0               | 0                    | 1                   
+90%             | 0               | 0                    | 1                   
+91%             | 0               | 0                    | 1                   
+92%             | 0               | 0                    | 1                   
+93%             | 0               | 0                    | 1                   
+94%             | 0               | 0                    | 1                   
+95%             | 0               | 0                    | 1                   
+96%             | 0               | 0                    | 1                   
+97%             | 0               | 0                    | 1                   
+98%             | 0               | 0                    | 1                   
+99%             | 0               | 0                    | 1                   
+100%            | 0               | 0                    | 1                   
